@@ -1,0 +1,139 @@
+body{
+    background-color: black;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+h3{
+    margin-top: 15px;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    margin:5px;
+    cursor: pointer;
+}
+
+/* opacity effect */
+.uber{
+    color: black;
+    background-color: white;
+    border:none;
+    padding: 15px 30px;
+}
+.uber:hover{
+    opacity: 0.5;
+}
+
+/* Amazon (background color) */
+.amazon{
+    background-color: gold;
+    border-radius: 25px;
+    padding: 10px 70px 10px 70px;
+}
+.amazon:hover{
+    background-color: orange;
+}
+
+/* github (shadow) */
+.github{
+    color: white;
+    background-color: green;
+    padding: 10px 25px 10px 25px;
+    /* font-size: 20px; */
+}
+.github:hover{
+    box-shadow: 3px 3px 10px rgba(255,248,246,0.9);
+}
+
+/* bootstrap (background color + text color) */
+.bts-get-started{
+    color: white;
+    background-color: rgb(121,82,179);
+    padding: 15px 30px 15px 30px;
+}
+.bts-get-started:hover{
+    opacity: 0.7;
+}
+.bts-download{
+    color: rgb(121,82,179);
+    background-color: white;
+    padding: 15px 30px 15px 30px;
+}
+.bts-download:hover{
+    color:white;
+    background-color: grey;
+}
+
+/* linkedIn background-color & border-width */
+.link{
+    color: white;
+    background-color: rgb(10,102,194);
+    border-radius: 25px;
+    padding: 10px 22px 10px 22px;
+}
+.link:hover{
+    background-color: rgb(2, 71, 136);
+}
+.link-save{
+    color: rgb(10,102,194);
+    border-color: white;
+    border-width: 1px;
+    border-color: rgb(10,102,194);
+    border-radius: 20px;
+    padding: 8px 25px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+.link-save:hover{
+    background-color: rgb(174, 219, 245);
+    border-width: 2px;
+}
+
+.sub-button{
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+.join-button{
+    color: rgb(43, 133, 252);
+    background-color: white;
+    border-radius: 4px;
+    border-color: rgb(43, 133, 252);
+    border-width: 1px;
+    padding: 9px 15px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+.tweet-button{
+    color: white;
+    background-color: rgb(86, 160, 245);
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 9px 16px;
+}
+
+.back-button{
+    padding: 8px 15px;
+    margin: 15px 15px 0px 0px;
+}
+.Next-button{
+    padding: 8px 15px;
+    margin-left: 15px;
+}
+.search-button{
+    padding: 0px 5px;
+}
+
