@@ -102,3 +102,49 @@ body{
     margin-left: 380px;
     margin-top: 15px;
 }
+
+.f5{
+    margin:0;
+}
+.price{
+    font-size: 40px;
+}
+.currency{
+    color: grey;
+    font-size: 20px;
+}
+.change{
+    color: green;
+    font-size: 20px;
+    margin-top: 12px;
+}
+.after-hours{
+    color: grey;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.percentage{
+    color: red;
+}
+
+.Title{
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 0 ;
+}
+.address{
+    color: rgb(100,100,100);
+    font-weight: lighter;
+}
+.text{
+    width: 590px;
+    font-size: 19px;
+    margin-top: 8px;
+}
+.hint{
+    font-size: 19px;
+}
+.link{
+    color: rgb(103, 215, 230);
+}
+
