@@ -69,6 +69,7 @@ body{
     display: block;
     padding: 10px 5px;
     width: 305px;
+    margin-bottom: 5px;
 }
 .e8{
     display: inline-block;
@@ -80,7 +81,4 @@ body{
     color: white;
     background-color: black;
     margin-right: 10px;
-}
-.btn2{
-
 }
