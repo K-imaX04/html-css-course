@@ -1,0 +1,58 @@
+body{
+    color: white;
+    background-color: rgb(226, 213, 230);
+    font-family:Roboto,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',   Oxygen, Ubuntu, sans-serif;
+}
+
+.yt-search-box{
+    display: block;
+    width: 450px;
+    padding: 10px 0 10px 10px;
+    border: none;
+    border-radius: 15px;
+    margin: 10px 0 20px 300px;
+}
+.video-layout{
+    width: 400px;
+    background-color: rgb(134, 53, 53);
+    border-radius: 15px;
+    padding: 5px;
+    /* display: inline-block; */
+    /* margin: 5px; */
+}
+
+.thumbnail{
+    border-radius: 15px;
+    width: 100%;
+    height: 200px;
+}
+
+.second-row-grid{
+    display: grid;
+    grid-template-columns: 55px 1fr;
+    padding-top: 10px;
+}
+.profile-pic{
+    width: 50px;
+    border-radius: 25px;
+}
+
+.video-title{
+    width: 180px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    line-height: 25px;
+    /* font-weight: bold; */
+}
+.author, .stats{
+    color: rgb(148, 147, 147);
+    font-size: 14px;
+    margin: 0;
+    line-height: 20px;
+}
+
+.body-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px 20px;
+}
