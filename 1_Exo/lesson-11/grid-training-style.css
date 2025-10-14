@@ -1,0 +1,69 @@
+body{
+    background-color: lightgrey;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+.a11-grid{
+    display: grid;
+    grid-template-columns: 200px 75px;
+}
+.b11-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr 75px;
+}
+.c11-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px 20px;
+}
+
+.d11-grid{
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    column-gap: 25px;
+}
+.container{
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    vertical-align: top;
+    margin-right: 15px;
+}
+.profile-pic{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.name{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 8px;
+    margin-bottom: 5px;
+}
+.mutual-friends-row{
+    display: grid;
+    grid-template-columns: 35px 1fr;
+    align-items: center;
+    margin-left: 8px;
+    margin-bottom: 5px;
+}
+.MF-pic{
+    width: 28px;
+    height: 28px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.MF{
+    color: rgb(100,100,100);
+}
+.Add-btn{
+    color: white;
+    background-color: rgb(24, 119, 242);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 0 0 10px 8px;
+}
