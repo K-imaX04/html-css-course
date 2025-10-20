@@ -3,12 +3,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS position</title>
-    <link rel="stylesheet" href="style.css ">
+    <title>Nested flexbox</title>
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/yt-header.css">
+    <link rel="stylesheet" href="styles/youtube-style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/yt-sidebar.css">
 </head>
 <body>
-    <div class="head" >Header</div>
-    <div class="div1">div1</div>
-    <div class="div2">div2</div>
+    <div class="header">
+        <div class="left-section">
+            <img class="humb-icon" src="imgs/icons/hamburger-menu.svg">
+            <img class="yt-logo" src="imgs/icons/youtube-logo.svg">
+        </div>
+        <div class="middle-section">
+            <input class="yt-search-box" type="text" placeholder="Search">
+            <button class="search-btn">
+                <img class="search-icon" src="imgs/icons/search.svg">
+            </button>
+            <button class="voice-search-btn">
+                <img class="voice-search-icon" src="imgs/icons/voice-search-icon.svg">
+            </button>
+        </div>
+        <div class="right-section">
+            <img class="upload-icon" src="imgs/icons/upload.svg">
+            <img class="yt-app-icon" src="imgs/icons/youtube-apps.svg">
+            <img class="not-icon" src="imgs/icons/notifications.svg">
+            <img class="pic-icon" src="imgs/Channel-pictures/picture1.jpg">
+        </div>
+    </div>
+    <div class="sidebar">sidebar section</div>
+
+<div class="body-div">
+    <div class="video-layout">
+            <div>
+            <img class="thumbnail" src="imgs/thumbnails/thumbnail-1.avif">
+        </div>
+        <div class="second-row-grid">
+            <div class="channel-pic">
+                <img class="profile-pic" src="imgs/Channel-pictures/picture1.jpg">
+            </div>
+            <div class="video-info">
+                <p class="video-title">HTML & CSS full course - Beginner to Pro</p>
+                <p class="author">SuperSimpleDev</p>
+                <p class="stats">16M views &middot; 6 months ago</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="video-layout">
+        <div>
+            <img class="thumbnail" src="imgs/thumbnails/thum1.avif">
+        </div>
+        <div class="second-row-grid">
+            <div>
+                <img class="profile-pic" src="imgs/Channel-pictures/picture2.jpg">
+            </div>
+            <div>
+                <p class="video-title"> DAVID Laid-OUTSIDE (SLOWED-REVERB)</p>
+                <p class="author">Vertex-gym</p>
+                <p class="stats">3M views &middot; 9 months ago</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="video-layout">
+        <div>
+            <img class="thumbnail" src="imgs/thumbnails/thum3.avif">
+        </div>
+        <div class="second-row-grid">
+            <div>
+                <img class="profile-pic" src="imgs/Channel-pictures/picture3.jpg">
+            </div>
+            <div>
+                <p class="video-title"> How to learn web dev so fast- it feels like cheating</p>
+                <p class="author">Vertex-gym</p>
+                <p class="stats">5,7 k views &middot; 22 hours ago</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="video-layout">
+            <div>
+            <img class="thumbnail" src="imgs/thumbnails/thum4.avif">
+        </div>
+        <div class="second-row-grid">
+            <div class="channel-pic">
+                <img class="profile-pic" src="imgs/Channel-pictures/picture4.jpg">
+            </div>
+            <div class="video-info">
+                <p class="video-title">Should you become an AI engineer ?</p>
+                <p class="author">CodeHead</p>
+                <p class="stats">132 k views &middot; 3 months ago</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="video-layout">
+            <div>
+            <img class="thumbnail" src="imgs/thumbnails/thum5.avif">
+        </div>
+        <div class="second-row-grid">
+            <div class="channel-pic">
+                <img class="profile-pic" src="imgs/Channel-pictures/picture5.jpg">
+            </div>
+            <div class="video-info">
+                <p class="video-title">The Best VScode Extensions</p>
+                <p class="author">Coding With Adam</p>
+                <p class="stats">16M views &middot; 6 months ago</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="video-layout">
+            <div>
+            <img class="thumbnail" src="imgs/thumbnails/thum6.avif">
+        </div>
+        <div class="second-row-grid">
+            <div class="channel-pic">
+                <img class="profile-pic" src="imgs/Channel-pictures/picture6.jpg">
+            </div>
+            <div class="video-info">
+                <p class="video-title">ReactNative vs Flutter - I built the same chat app with both</p>
+                <p class="author">Fireship</p>
+                <p class="stats">2.4M views &middot; 4 years ago</p>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
