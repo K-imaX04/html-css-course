@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson-13 training</title>
+    <link rel="stylesheet" href="nested-training-style.css">
+</head>
+<body>
+    <h2>13a- Creating a flexbox with 2 elements (width 100px & 200px).
+        then making the first one a flexbox to create the specific design.
+    </h2>
+    <div class="a13">
+        <div class="column1">
+            <div style="background-color: black;color: white;">item1</div>
+        </div>
+        <div style="background-color: lightblue;width: 200px;"></div>
+    </div>
+    <hr>
+    
+    <h2>13b- Using a nested flexbox to create a specific design :</h2>
+    <div class="b13">
+        <div style="background-color: lightpink;width: 100px;"></div>
+        <div style="background-color: lightblue;width: 200px;">row1
+            <div class="flex2">
+                <div style="background-color: black;">row2</div>
+                <div style="background-color: black;">row2</div>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <h2>13c- Using nested layouts tech to break down this design</h2>
+    <div style="display: flex;justify-content: center;">
+        <img src="imgs/13c-result.png" style="width: 500px">
+    </div>
+    <hr>
+
+    <h2>13d- Coding the previous design with flexbox and block </h2>
+    <div class="d13">
+        <div style="color: rgb(120, 120, 120);">ALL INBOXES</div>
+        <div class="row2">
+            <div class="img-part">
+                <img class="profile-pic" src="imgs/Channel-pictures/picture4.jpg"></div>
+            <div class="text-part">
+                <div class="first-row">
+                    <div style="font-size: 16px;font-weight: 900;">Chewy Promotions</div>
+                    <div style="color: rgb(120, 120, 120);">4:58 PM</div>
+                </div>
+                <div style="font-size: 14px;font-weight: 900;">Biggest sales of the year!</div>
+                <div style="color: gray;margin-top: 4px;font-size: 14px;">Hey there! We're writing to tell you about our...</div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    
+    <h2>13e- Making a few 13d copies to create this design</h2>
+        <div class="e13">
+            <div style="color: rgb(120, 120, 120);">ALL INBOXES</div>
+            
+            <div class="row2">
+                <div class="img-part">
+                    <img class="profile-pic" src="imgs/Channel-pictures/picture4.jpg">
+                </div>
+                <div class="text-part">
+                    <div class="first-row">
+                        <div style="font-size: 16px;font-weight: 900;">Chewy Promotions
+                        </div>
+                        <div style="color: rgb(120, 120, 120);">4:58 PM</div>
+                    </div>
+                    <div style="font-size: 14px;font-weight: 900;">Biggest sales of the year!</div>
+                    <div style="color: gray;margin-top: 4px;font-size: 14px;">Hey there! We're writing to tell you about our...</div>
+                </div>
+            </div>
+
+            <div class="row2">
+                <div class="img-part">
+                    <img class="profile-pic" src="imgs/Channel-pictures/picture6.jpg">
+                </div>
+                <div class="text-part">
+                    <div class="first-row">
+                        <div style="font-size: 16px;font-weight: 900;">Best Buy</div>
+                        <div style="color: rgb(120, 120, 120);">12:32 PM</div>
+                    </div>
+                    <div style="font-size: 14px;font-weight: 900;">Your Best Buy eReceipt</div>
+                    <div style="color: gray;margin-top: 4px;font-size: 14px;">Thank you for shopping at Best Buy, here is...</div>
+                </div>
+            </div>
+
+            <div class="row2">
+                <div class="img-part">
+                    <img class="profile-pic" src="imgs/Channel-pictures/picture3.jpg"></div>
+                <div class="text-part">
+                    <div class="first-row">
+                        <div style="font-size: 16px;font-weight: 900;">Netflix</div>
+                        <div style="color: rgb(120, 120, 120);">9:00 PM</div>
+                    </div>
+                    <div style="font-size: 14px;font-weight: 900;">Here's what's coming soon to Netflix</div>
+                    <div style="color: gray;margin-top: 4px;font-size: 14px;">Brand new movies and shows, old favorites...</div>
+                </div>
+            </div>
+        </div>
+    <hr>
+
+    <h2>13f- Breaking down the design into H&V layouts:</h2>
+    <div style="display: flex;justify-content: center;">
+        <img src="imgs/13f-result.png" style="width: 500px">
+    </div>
+    <hr>
+
+    <h2>13g- Coding the previous design</h2>
+    <div class="g13">
+        <div class="column-1">
+            <img class="profile-picture" src="imgs/Channel-pictures/picture1.jpg">
+        </div>
+        <div class="column-2">
+            <div class="row-1">supersimple.dev <span>@SuperSimpleDev</span></div>
+            <div class="row-2">What is backend web dev? A complete overview. New video is up!</div>
+            <div class="row-3">
+                <div class="thumbnail-column"></div>
+                <div class="video-info-column">
+                    <div style="color: rgb(120, 120, 120);">youtube.com</div>
+                    <div>Backend web development - a complete overview (2021)</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+</body>
+</html>
