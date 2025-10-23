@@ -1,0 +1,61 @@
+body{
+    background-color: darkgrey;
+    height: 3000px;
+    
+    padding-top:43px ;
+    padding-left: 63px;
+}
+
+.head{
+    background-color: black;
+    color: white;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+    height: 50px;
+    z-index: 100;
+}
+
+.sidebar{
+    color: white;
+    background-color: green;
+
+    position: fixed;
+    top: 50px;
+    left: 0;
+    bottom: 0;
+
+    width: 70px;
+}
+
+.absolute-div{
+    position: absolute;
+    background-color: red;
+    color: aliceblue;
+
+    right: 10px;
+    top: 60px; 
+}
+
+.div1{
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    position: static;
+}
+.div2{
+    width: 200px;
+    height: 200px;
+    background-color: lightpink;
+    position: relative;
+}
+.absolute-div2{
+    background-color: black;
+    color: whitesmoke;
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+}

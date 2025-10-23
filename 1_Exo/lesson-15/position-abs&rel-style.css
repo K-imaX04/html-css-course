@@ -1,0 +1,145 @@
+body{
+    background-color: darkgrey;
+    height: 3000px;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+
+.a15{
+    color: white;
+    background-color: black;
+
+    position: absolute;
+    top: 39px;
+    right: 5px;
+
+    border-radius: 25px;
+
+    font-size: 20px;
+    width: 45px;
+    height: 45px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .b15{
+    background-color: rgb(83, 82, 82);
+    width: 320px;
+    height: 180px;
+
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+} */
+
+/* .c15{
+    background-color: rgb(83, 82, 82);
+    width: 320px;
+    height: 180px;
+
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+.c15-btn{
+    color: white;
+    background-color: black;
+
+    position: absolute;
+    top: -20px;
+    left: -20px;
+
+    border-radius: 25px;
+
+    font-size: 20px;
+    width: 45px;
+    height: 45px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+/* .d15{
+    background-color: rgb(83, 82, 82);
+    width: 320px;
+    height: 180px;
+
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+.d15-btn{
+    color: white;
+    background-color: black;
+
+    position: absolute;
+    top: -20px;
+    left: -20px;
+
+    border-radius: 25px;
+
+    font-size: 20px;
+    width: 45px;
+    height: 45px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.timestamp{
+    color: white;
+    background-color: black;
+
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+
+    padding: 5px 10px;
+    font-size: 18px;
+} */
+
+.e15{
+    position: relative;
+    width: 300px;
+}
+.t-shirt{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.discount{
+    position: absolute;
+    right: 0;
+    top: 10px;
+
+    color: white;
+    background-color: black;
+    padding: 8px 12px;
+
+    font-size: 18px;
+}
+
+.f15{
+    position: relative;
+    display: inline-block;
+}
+.second-row{
+    position: absolute;
+    bottom: 0;
+
+    background-color: rgba(255, 255, 255,0.8);
+    width: 300px;
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add-btn{
+    position: absolute;
+    padding: 10px 15px;
+}
