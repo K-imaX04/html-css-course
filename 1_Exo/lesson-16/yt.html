@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested flexbox</title>
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/yt-header.css">
+    <link rel="stylesheet" href="styles/youtube-style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/yt-sidebar.css">
+</head>
+<body>
+    <div class="header">
+        <div class="left-section">
+            <img class="humb-icon" src="imgs/icons/hamburger-menu.svg">
+            <img class="yt-logo" src="imgs/icons/youtube-logo.svg">
+        </div>
+        <div class="middle-section">
+            <input class="yt-search-box" type="text" placeholder="Search">
+            <button class="search-btn">
+                <img class="search-icon" src="imgs/icons/search.svg">
+                <div class="tooltip">Search</div>
+            </button>
+            <button class="voice-search-btn">
+                <img class="voice-search-icon" src="imgs/icons/voice-search-icon.svg">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+        <div class="right-section">
+            <div class="up-container">
+                <img class="upload-icon" src="imgs/icons/upload.svg">
+                <div class="tooltip">Create</div>
+            </div>
+            <div class="yt-app-container">
+                <img class="yt-app-icon" src="imgs/icons/youtube-apps.svg">
+                <div class="tooltip">YouTube Apps</div>
+            </div>
+            <div class="not-div">
+                <img class="not-icon" src="imgs/icons/notifications.svg">
+                <div class="not-count">3</div>
+                <div class="tooltip">notifications</div>
+            </div>
+            <img class="pic-icon" src="imgs/Channel-pictures/picture1.jpg">
+        </div>
+    </div>
+    <div class="sidebar">
+        <div class="sidebar-link">
+            <img src="imgs/icons/home.svg">
+            <div>Home</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="imgs/icons/explore.svg">
+            <div>Explore</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="imgs/icons/subscriptions.svg">
+            <div>Subscriptions</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="imgs/icons/originals.svg">
+            <div>Originals</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="imgs/icons/youtube-music.svg">
+            <div>YouTube Music</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="imgs/icons/library.svg">
+            <div>Library</div>
+        </div>
+    </div>
+
+<div class="body-div">
+    <div class="video-layout">
+        <div class="video-thumbnail">
+            <img class="thumbnail" src="imgs/thumbnails/thumbnail-1.avif">
+            <div class="video-time">6:31:23</div>
+        </div>
+        <div class="second-row-grid">
+            <div class="channel-pic">
+                <img class="profile-pic" src="imgs/Channel-pictures/picture1.jpg">
+                <div class="channel-pic-tooltip">
+                    <img class="profile-pic" src="imgs/Channel-pictures/picture1.jpg">
+                    <div class="info">
+                        <div>SuperSimpleDev</div>
+                        <div>15 Subs</div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-info">
+                <a href="https://youtu.be/G3e-cpL7ofc?si=yZHB1K1uBUFP7V_Y" target="_blank" class="video-title-link">
+                    <p class="video-title">HTML & CSS full course - Beginner to Pro</p>
+                </a>
+                <p class="author">SuperSimpleDev</p>
+                <p class="stats">16M views &middot; 6 months ago</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="video-layout">
+        <div class="video-thumbnail">
+            <img class="thumbnail" src="imgs/thumbnails/thum1.avif">
+            <div class="video-time">5:21</div>
+        </div>
+        <div class="second-row-grid">
+            <div>
+                <img class="profile-pic" src="imgs/Channel-pictures/picture2.jpg">
+            </div>
+            <div>
+                <a href="https://youtu.be/M7xx0WejDV4?si=lNHK_dFFafhDX7cc" target="_blank" class="video-title-link">
+                    <p class="video-title"> DAVID Laid-OUTSIDE (SLOWED-REVERB)</p>
+                </a>
+                <p class="author">Vertex-gym</p>
+                <p class="stats">3M views &middot; 9 months ago</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="video-layout">
+        <div class="video-thumbnail">
+            <img class="thumbnail" src="imgs/thumbnails/thum3.avif">
+            <div class="video-time">5:19</div>
+        </div>
+        <div class="second-row-grid">
+            <div>
+                <img class="profile-pic" src="imgs/Channel-pictures/picture3.jpg">
+            </div>
+            <div>
+                <a href="https://youtu.be/HwTbrncsIGo?si=Tp36MPrq2OJ5G5li" target="_blank" class="video-title-link">
+                    <p class="video-title"> How to learn web dev so fast- it feels like cheating</p>
+                </a>
+                <p class="author">Vertex-gym</p>
+                <p class="stats">5,7 k views &middot; 22 hours ago</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="video-layout">
+        <div class="video-thumbnail">
+            <img class="thumbnail" src="imgs/thumbnails/thum4.avif">
+            <div class="video-time">10:50</div>
+        </div>
+        <div class="second-row-grid">
+            <div class="channel-pic">
+                <img class="profile-pic" src="imgs/Channel-pictures/picture4.jpg">
+            </div>
+            <div class="video-info">
+                <a href="https://youtu.be/TQwwK7P_J4I?si=6zQLp7v-yNYoWqrY" target="_blank" class="video-title-link">
+                    <p class="video-title">Should you become an AI engineer ?</p>
+                </a>
+                <p class="author">CodeHead</p>
+                <p class="stats">132 k views &middot; 3 months ago</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="video-layout">
+        <div class="video-thumbnail">
+            <img class="thumbnail" src="imgs/thumbnails/thum5.avif">
+            <div class="video-time">15:20</div>
+        </div>
+        <div class="second-row-grid">
+            <div class="channel-pic">
+                <img class="profile-pic" src="imgs/Channel-pictures/picture5.jpg">
+            </div>
+            <div class="video-info">
+                <a href="https://youtu.be/YjhkcvS1xKU?si=pqoykQZlaahdhz8G" target="_blank" class="video-title-link">
+                    <p class="video-title">The Best VScode Extensions</p>
+                </a>
+                <p class="author">Coding With Adam</p>
+                <p class="stats">16M views &middot; 6 months ago</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="video-layout">
+        <div class="video-thumbnail">
+            <img class="thumbnail" src="imgs/thumbnails/thum6.avif">
+            <div class="video-time">23:50</div>
+        </div>
+        <div class="second-row-grid">
+            <div class="channel-pic">
+                <img class="profile-pic" src="imgs/Channel-pictures/picture6.jpg">
+            </div>
+            <div class="video-info">
+                <a href="https://youtu.be/X8ipUgXH6jw?si=P7Vd3kIUZQZq5YjS" target="_blank" class="video-title-link">
+                    <p class="video-title">ReactNative vs Flutter - I built the same chat app with both</p>
+                </a>
+                <p class="author">Fireship</p>
+                <p class="stats">2.4M views &middot; 4 years ago</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,95 @@
+.video-layout{
+    width: 400px;
+    background-color: rgb(134, 53, 53);
+    border-radius: 15px;
+    padding: 5px;
+    /* display: inline-block; */
+    /* margin: 5px; */
+}
+
+.video-thumbnail{
+    position: relative;
+}
+.thumbnail{
+    border-radius: 15px;
+    width: 100%;
+    height: 200px;
+}
+.video-time{
+    position: absolute;
+    background-color: black;
+    right: 5px;
+    bottom: 8px;
+
+    font-family: system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen;
+    font-size: 14px;
+    font-weight: 900px;
+
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.second-row-grid{
+    display: grid;
+    grid-template-columns: 55px 1fr;
+    padding-top: 10px;
+}
+.channel-pic{
+    position: relative;
+    display: inline-block;
+}
+.channel-pic-tooltip{
+    position: absolute;
+    right: -200px;
+
+    display: flex;
+    align-items: center;
+    transition: opacity 0.15s;
+
+    background-color: rgb(233, 235, 235);
+    width: 200px;
+    padding: 12px;
+    box-shadow: 2px 3px 10px rgba(0,0,0,0.3);
+    
+    opacity: 0;
+    pointer-events: none;
+
+}
+.channel-pic-tooltip .info{
+    line-height: 25px;
+    color: black;
+    font-weight: bold;
+    margin-left: 6px;
+}
+.channel-pic:hover .channel-pic-tooltip{
+    opacity: 1;
+}
+.profile-pic{
+    width: 45px;
+    border-radius: 25px;
+}
+
+
+.video-title{
+    width: 180px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    line-height: 25px;
+    /* font-weight: bold; */
+}
+.video-title-link{
+    color: white;
+    text-decoration: none;
+}
+.author, .stats{
+    color: rgb(148, 147, 147);
+    font-size: 14px;
+    margin: 0;
+    line-height: 20px;
+}
+
+.body-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px 20px;
+}
